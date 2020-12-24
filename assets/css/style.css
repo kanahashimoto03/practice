@@ -252,23 +252,20 @@ body {
 .p-intro__inner {
   width: 1180px;
   margin: 0 auto;
-  position: relative;
-}
-
-.p-intro__title {
-  position: absolute;
-  top: 64px;
-  right: 64px;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
+  padding-top: 149px;
+}
+
+.p-intro__title {
+  margin-right: 101px;
+  margin-left: 118px;
   font-size: 28px;
   letter-spacing: 3.5px;
 }
 
 .p-intro p {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
+  margin-left: 118px;
 }
 /*# sourceMappingURL=style.css.map */

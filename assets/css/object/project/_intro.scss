@@ -8,19 +8,18 @@
   &__inner {
     width: 1180px;
     margin: 0 auto;
-    position: relative;
+    writing-mode: vertical-rl;
+    padding-top: 149px;
   }
 
   &__title {
-    position: absolute;
-    top: 64px;
-    right: 64px;
-    writing-mode: vertical-rl;
+    margin-right: 101px;
+    margin-left: 118px;
     font-size: 28px;
     letter-spacing: 3.5px;
   }
 
   p {
-    writing-mode: vertical-rl;
+    margin-left: 118px;
   }
 }
