@@ -242,6 +242,16 @@ body {
   height: 1079px;
 }
 
+.c-section__logo {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.c-section__title {
+  font-size: 36px;
+  margin-bottom: 66px;
+}
+
 .p-intro__bg {
   background-image: url(../image/bg.jpg);
   background-position: center;
@@ -330,16 +340,6 @@ body {
   padding-top: 60px;
 }
 
-.p-plan__logo {
-  width: 40px;
-  margin-bottom: 20px;
-}
-
-.p-plan__title {
-  font-size: 36px;
-  margin-bottom: 66px;
-}
-
 .p-plan__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -376,5 +376,11 @@ body {
 .p-plan__item__subTitle {
   font-size: 16px;
   line-height: 2;
+}
+
+.p-news {
+  text-align: center;
+  height: 697px;
+  padding-top: 60px;
 }
 /*# sourceMappingURL=style.css.map */
